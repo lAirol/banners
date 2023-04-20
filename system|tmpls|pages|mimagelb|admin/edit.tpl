@@ -75,8 +75,8 @@
 		</tr>
 		{/if}
 		<tr>
-			<td width='100'>URL<span class="red_point">*</span>:</td>
-                        <td><input type='text' name='url' size='50' value="{$mimagelb.url}" id='url' required  onChange="checkURLForCyrillic('url')" /></td>
+			<td width='100'>URL<span class="red_point"></span>:</td>
+                        <td><input type='text' name='url' size='50' value="{$mimagelb.url}" id='url'/></td>
 		</tr>
                 <tr>
 			<td>Краткое описание:</td>
